@@ -196,16 +196,6 @@ function createBookingEmailContent({ bookingId, devoteeName, poojaType, temple, 
             ` : ''}
           </div>
 
-          <div class="next-steps">
-            <h3>What's Next?</h3>
-            <ul>
-              <li>You will receive a live streaming link 30 minutes before your pooja time</li>
-              <li>Please join the live stream 5 minutes before the scheduled time</li>
-              <li>Ensure you have a stable internet connection for the best experience</li>
-              <li>You can participate in the pooja from the comfort of your home</li>
-            </ul>
-          </div>
-
           <div class="footer">
             <p>
               <span class="om-symbol">ॐ</span>
@@ -213,7 +203,7 @@ function createBookingEmailContent({ bookingId, devoteeName, poojaType, temple, 
               <span class="om-symbol">ॐ</span>
             </p>
             <p>Thank you for choosing Anandmaya for your spiritual journey</p>
-            <p>For any queries, please contact us at support@anandmaya.com</p>
+            <p>For any queries, please contact us at info@anandmaya.com</p>
           </div>
         </div>
       </body>
@@ -236,16 +226,10 @@ Booking Details:
 - Time: ${formattedTime}
 ${specialRequests ? `- Special Requests: ${specialRequests}` : ''}
 
-What's Next?
-- You will receive a live streaming link 30 minutes before your pooja time
-- Please join the live stream 5 minutes before the scheduled time
-- Ensure you have a stable internet connection for the best experience
-- You can participate in the pooja from the comfort of your home
-
 May the divine blessings be with you!
 
 Thank you for choosing Anandmaya for your spiritual journey.
-For any queries, please contact us at support@anandmaya.com
+For any queries, please contact us at info@anandmaya.com
     `;
 
   return { html, text };
