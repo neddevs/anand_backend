@@ -1,0 +1,13 @@
+🚀 Server running in development mode on port 5001
+📱 API Health Check: http://localhost:5001/api/health
+🔐 Auth Endpoints: http://localhost:5001/api/auth
+Database connection error: bad auth : authentication failed
+⚠️  Server will continue running without database connection
+Registration error: MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/suryanbray/Downloads/projects/Figma_To_Code/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:185:23)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+Login error: MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/suryanbray/Downloads/projects/Figma_To_Code/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:185:23)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
